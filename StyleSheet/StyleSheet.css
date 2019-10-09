@@ -2,10 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-image: url(polka_dot.png);
+ }
+ body {
+    background-image: url("polka_dot.png");
     background-color: #FAEDDA;
     background-position: center;
     background-repeat: repeat;
@@ -19,31 +18,31 @@ body {
     grid-template: 1fr;
     position: relative;
     top: 0;
-    left: 20%;
-}
-
-.tv {
+ }
+ .tv {
     position: relative;
-    top: 0;
-    left: 10%;
-}
-
-.video {
-    position: absolute;
-    top: 30%;
-    left: 17%
-}
-
-.buy_button {
-    position: absolute;
-    top: 85%;
+    top: -29px;
     left: 28%;
+    width: 45%;
+ }
+ .video {
+    position: absolute;
+    top: 35%;
+    left: 35.7%;
+    z-index: 1;
+    width: 24%;
+    height: 44%;
+ }
+ .buy_button{
+    position: absolute;
+    top: 81%;
+    left: 43%;
     z-index: 1;
     background-color: #CCC374;
     border-radius: 10px;
-    padding: 10px;
-}
-
+    padding: 2px;
+    font-size: 2em;
+ }
 #MainNav {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -77,27 +76,24 @@ nav li {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 60px;
+    margin: 10px;
     border-bottom: #C7B199 4px solid;
-    margin-left: 450px;
-    margin-right: 450px;
-    padding-inline-start: 0%;
+    margin-left: 40%;
+    margin-right: 40%;       
 }
-
-.Socialmedia img {
-    max-width: 50px;
-    max-height: 50px;
+.Socialmedia img{
+    max-width: 70px;
+    max-height: 70px;
     margin: 10px;
 }
 
 #Youtube {
     max-width: 60px;
-    margin-top: 10px;
-    margin-right: 6px;
-}
-
-#Twitter {
-    margin-top: 6px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+#Twitter{
+    margin-top: 0px;
 }
 
 #titler {
@@ -125,15 +121,34 @@ nav li {
 
 #stylebox {
     display: grid;
-    grid-template-columns: 5% 60% 30% 5%;
+    grid-template-columns: 5% 55% 35% 5%;
+    align-content: center;
 }
-
-#albums section {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    font-size: 20px;
-    font-family: 'Banger', cursive;
-    margin: 20px;
+#Snews{
+    border-right: #C7B199 solid 4px;
+}
+#Snews h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    text-justify: center;
+}
+#Snews p{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 20px;
+}
+#albums section{
+   display: grid;
+   grid-template-columns: 30% 70%;   
+   font-size: 120%;
+   font-family: 'Banger', cursive;
+   margin: 20px;
+   margin-left: 60px;
+   border-bottom: #E46343 solid 4px;
+   margin-bottom: 20px; 
+   text-align: left;
+   text-justify: center;
 }
 
 * {
