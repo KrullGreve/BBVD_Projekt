@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,8 +11,9 @@
     background-attachment: fixed;
     background-size: over;
     min-width: 100vh;
- }
- .parent {
+}
+
+.parent {
     display: grid;
     grid-template: 1fr;
     position: relative;
@@ -52,6 +53,7 @@
     border-bottom: 4px solid #E46343;
     background: #1A4265;
 }
+
 li a {
     color: #C7B199;
     font-family: Special Elite, Arial, Helvetica, sans-serif;
@@ -59,15 +61,18 @@ li a {
     text-decoration: none;
     display: block;
 }
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
-nav li{
-    margin-right: 45px;    
+
+nav li {
+    margin-right: 45px;
 }
-.Socialmedia{
+
+.Socialmedia {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -80,9 +85,9 @@ nav li{
     max-width: 70px;
     max-height: 70px;
     margin: 10px;
-    
-    }
- #Youtube {
+}
+
+#Youtube {
     max-width: 60px;
     margin-top: 0px;
     margin-right: 0px;
@@ -90,25 +95,31 @@ nav li{
 #Twitter{
     margin-top: 0px;
 }
-#titler{
+
+#titler {
     display: grid;
     grid-template-columns: 5% 1fr 1fr 5%;
     margin: 100px;
 }
-#h2, #h3{
+
+#h2,
+#h3 {
     font-size: 45px;
     color: #E46343;
-    font-family: 'Monoton', cursive; 
+    font-family: 'Monoton', cursive;
 }
-#h2{
+
+#h2 {
     justify-self: right;
     border-bottom: #C7B199 4px solid;
 }
-#h3{
+
+#h3 {
     justify-self: left;
     border-bottom: #C7B199 4px solid;
 }
-#stylebox{
+
+#stylebox {
     display: grid;
     grid-template-columns: 5% 55% 35% 5%;
     align-content: center;
@@ -139,6 +150,7 @@ nav li{
    text-align: left;
    text-justify: center;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -251,3 +263,13 @@ nav li{
         column-count: 1;
     }
 }
+
+
+/*footer*/
+
+p {
+    text-align: center
+}
+
+
+/*end footer*/
