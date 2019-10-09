@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- }
- body {
+}
+
+body {
     background-image: url(polka_dot.png);
     background-color: #FAEDDA;
     background-position: center;
@@ -11,25 +12,29 @@
     background-attachment: fixed;
     background-size: over;
     min-width: 100vh;
- }
- .parent {
+}
+
+.parent {
     display: grid;
     grid-template: 1fr;
     position: relative;
     top: 0;
     left: 20%;
- }
- .tv {
+}
+
+.tv {
     position: relative;
     top: 0;
     left: 10%;
- }
- .video {
+}
+
+.video {
     position: absolute;
     top: 30%;
     left: 17%
- }
- .buy_button{
+}
+
+.buy_button {
     position: absolute;
     top: 85%;
     left: 28%;
@@ -37,7 +42,8 @@
     background-color: #CCC374;
     border-radius: 10px;
     padding: 10px;
- } 
+}
+
 #MainNav {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -48,6 +54,7 @@
     border-bottom: 4px solid #E46343;
     background: #1A4265;
 }
+
 li a {
     color: #C7B199;
     font-family: Special Elite, Arial, Helvetica, sans-serif;
@@ -55,67 +62,80 @@ li a {
     text-decoration: none;
     display: block;
 }
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
-nav li{
-    margin-right: 45px;    
+
+nav li {
+    margin-right: 45px;
 }
-.Socialmedia{
+
+.Socialmedia {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 60px;
     border-bottom: #C7B199 4px solid;
     margin-left: 450px;
-    margin-right: 450px;        
+    margin-right: 450px;
     padding-inline-start: 0%;
 }
-.Socialmedia img{
+
+.Socialmedia img {
     max-width: 50px;
     max-height: 50px;
     margin: 10px;
-    
-    }
- #Youtube {
+}
+
+#Youtube {
     max-width: 60px;
     margin-top: 10px;
     margin-right: 6px;
-  }
-#Twitter{
+}
+
+#Twitter {
     margin-top: 6px;
 }
-#titler{
+
+#titler {
     display: grid;
     grid-template-columns: 5% 1fr 1fr 5%;
     margin: 100px;
 }
-#h2, #h3{
+
+#h2,
+#h3 {
     font-size: 45px;
     color: #E46343;
-    font-family: 'Monoton', cursive; 
+    font-family: 'Monoton', cursive;
 }
-#h2{
+
+#h2 {
     justify-self: right;
     border-bottom: #C7B199 4px solid;
 }
-#h3{
+
+#h3 {
     justify-self: left;
     border-bottom: #C7B199 4px solid;
 }
-#stylebox{
+
+#stylebox {
     display: grid;
     grid-template-columns: 5% 60% 30% 5%;
 }
-#albums section{
-   display: grid;
-   grid-template-columns: 40% 60%;   
-   font-size: 20px;
-   font-family: 'Banger', cursive;
-   margin: 20px;
+
+#albums section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-size: 20px;
+    font-family: 'Banger', cursive;
+    margin: 20px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -228,3 +248,13 @@ nav li{
         column-count: 1;
     }
 }
+
+
+/*footer*/
+
+p {
+    text-align: center
+}
+
+
+/*end footer*/
