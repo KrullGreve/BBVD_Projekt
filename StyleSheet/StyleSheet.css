@@ -57,7 +57,10 @@ background-image: url("Images/46.png");
     border-bottom: 4px solid #E46343;
     background: #1A4265;
 }
-
+h1{
+    visibility: hidden;
+    font-size: 0;
+}
 li a {
     color: #C7B199;
     font-family: Special Elite, Arial, Helvetica, sans-serif;
