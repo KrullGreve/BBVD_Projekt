@@ -217,6 +217,8 @@ nav li {
     font-size: 3em;
     display: flex;
     display: inline-block;
+    color: #E46343;
+    font-family: 'Monoton', cursive;
 }
 
 .aboutrow2 {
@@ -249,6 +251,9 @@ nav li {
     text-align: center;
     margin-top: 3em;
     display: flex;
+    color: #E46343;
+    font-family: 'Monoton', cursive;
+
 }
 
 .galleryabouttext {
@@ -259,6 +264,7 @@ nav li {
     text-align: center;
     margin-bottom: 2em;
     display: flex;
+    
 }
 
 .aboutgallery {
