@@ -44,6 +44,7 @@ background-image: url("Images/46.png");
     border-radius: 10px;
     padding: 2px;
     font-size: 2em;
+    color:#544E3F;
 }
 
 #MainNav {
@@ -195,6 +196,42 @@ nav li {
 * {
     box-sizing: border-box;
 }
+/* Tour Dates */
+
+.tourdates {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 5px;
+    margin: 10px;
+}
+.heading {
+    font-size: 4em;
+    margin: 20px;
+    grid-column: 1/4;
+    justify-self: center;
+    color: #E46343;
+    font-family: 'Monoton', cursive;
+}
+.date {
+    grid-column: 1/2;
+}
+
+.where {
+    grid-column: 2/3;
+    justify-self: left;
+    list-style: none;
+}
+
+.ticket, .rsvp {
+    grid-column: 3/4;
+    justify-self: left;
+    align-self: center;
+    background-color: #CCC374;
+    border-radius: 10px;
+    padding: 10px;
+    color: #544E3F;
+    text-decoration: none;
+}
 
 
 /* About section */
@@ -345,6 +382,8 @@ nav li {
     font-size: 4em;
     grid-column: 2/6;
     justify-self: center;
+    color: #E46343;
+    font-family: 'Monoton', cursive;
 }
 
 .arrow {
@@ -385,6 +424,8 @@ h4 {
     margin: 20px;
     font-size: 2em;
     justify-self: center;
+    font-family: Special Elite, Arial, Helvetica, sans-serif;
+    color: #C7B199;
 }
 
 .images {
@@ -393,6 +434,7 @@ h4 {
 
 .gallery_images img {
     max-width: 70%;
+    align-self: center; 
 }
 
 
