@@ -23,7 +23,7 @@
     <Header id=home>
         <nav>
             <ul id="MainNav">
-                <li><a href="#home">Home</a></li>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li id="logo"><img src="Images/Big_Bad_VooDoo_Daddy.png" alt="Logo of the band" height="106px" width="278px"></li>
@@ -116,7 +116,7 @@
         </section>
     </div>
     <!-- Tour dates  -->
-    <section>
+    <section id="tour">
         <article class="tourdates">
             <h3 class="heading">Tour Dates</h3>
             <p class="date">15 OCT TUE</p>
@@ -419,6 +419,25 @@
         </ul>
         <p>©2018 Big Bad Voodoo Daddy®</p>
     </footer>
+    <h6><a href="#Hovede">Back to Top</a></h6>
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+       <script>
+               //Get the button
+               var mybutton = document.getElementById("myBtn");
+               // When the user scrolls down 20px from the top of the document, show the button
+               window.onscroll = function() {scrollFunction()};
+               function scrollFunction() {
+                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                   mybutton.style.display = "block";
+                 } else {
+                   mybutton.style.display = "none";
+                 }
+               }
+               // When the user clicks on the button, scroll to the top of the document
+               function topFunction() {
+                 document.body.scrollTop = 0;
+                 document.documentElement.scrollTop = 0;
+               }
+               </script>
 </body>
-
 </html>
