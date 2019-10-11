@@ -200,7 +200,33 @@ nav li {
     box-sizing: border-box;
 }
 /* Tour Dates */
-
+.tourdates .date{
+    font-family: fantasy;
+    font-size: 200%;
+    text-align: -webkit-center;
+}
+.tourdates .where{
+    font-family: fantasy;
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-self: center;
+}
+.tourdates .ticket{
+    font-family: fantasy;
+    font-size: 120%;
+    background-color: #E46343;
+    text-align: -webkit-center;
+}
+.tourdates .rsvp{
+    font-family: fantasy;
+    font-size: 120%;
+    background-color: #E46343;
+    text-align: -webkit-center;
+}
+.tourdates a:link{
+    color: black;
+}
 .tourdates {
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -403,6 +429,7 @@ nav li {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 5px;
+        margin-left: 17%;
 }
 
 .live_images {
@@ -428,7 +455,7 @@ h4 {
     font-size: 2em;
     justify-self: center;
     font-family: Special Elite, Arial, Helvetica, sans-serif;
-    color: #C7B199;
+    color: black;
 }
 
 .images {
@@ -438,6 +465,7 @@ h4 {
 .gallery_images img {
     max-width: 70%;
     align-self: center; 
+    margin-left: 17%;
 }
 
 
